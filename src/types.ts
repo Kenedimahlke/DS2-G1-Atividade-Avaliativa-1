@@ -9,6 +9,7 @@ export type Product = {
   category: string;
   thumbnail: string;
   images: string[];
+  stock: number;
 };
 
 // A lista vem embrulhada num envelope de paginação.
@@ -25,6 +26,7 @@ export type NewProduct = {
   price: number;
   category: string;
   description?: string;
+  stock: number;
 };
 
 // Resposta simulada do DELETE na DummyJSON.
